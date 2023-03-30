@@ -15,6 +15,8 @@
 		D30184C5406FB54D00A1C05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30184C3406FB54D00A1C05C /* LaunchScreen.storyboard */; };
 		D30184CD406FB54D00A1C05C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30184CC406FB54D00A1C05C /* File.swift */; };
 		D365890F1E812186004F7FDB /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D365890E1E812186004F7FDB /* MyTableViewCell.swift */; };
+		D3ED797729D417DE006CFF98 /* UIViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ED797629D417DE006CFF98 /* UIViewController2.swift */; };
+		D3F34F3E29D4201300BE6DE7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F34F3D29D4201300BE6DE7 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D30184C6406FB54D00A1C05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D30184CC406FB54D00A1C05C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../File.swift; sourceTree = "<group>"; };
 		D365890E1E812186004F7FDB /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		D3ED797629D417DE006CFF98 /* UIViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController2.swift; sourceTree = "<group>"; };
+		D3F34F3D29D4201300BE6DE7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		D30184AC406FB54D00A1C05C = {
 			isa = PBXGroup;
 			children = (
+				D3F34F3D29D4201300BE6DE7 /* ViewController2.swift */,
+				D3ED797629D417DE006CFF98 /* UIViewController2.swift */,
 				D30184B7406FB54D00A1C05C /* apiCountry24New */,
 				D30184B6406FB54D00A1C05C /* Products */,
 			);
@@ -144,11 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3F34F3E29D4201300BE6DE7 /* ViewController2.swift in Sources */,
 				D30184BD406FB54D00A1C05C /* ViewController.swift in Sources */,
 				D30184CD406FB54D00A1C05C /* File.swift in Sources */,
 				D30184B9406FB54D00A1C05C /* AppDelegate.swift in Sources */,
 				D365890F1E812186004F7FDB /* MyTableViewCell.swift in Sources */,
 				D30184BB406FB54D00A1C05C /* SceneDelegate.swift in Sources */,
+				D3ED797729D417DE006CFF98 /* UIViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
